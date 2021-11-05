@@ -1,0 +1,66 @@
+title: Kritner's Blog
+subtitle: Just tryin to learn some stuff and teach some stuff
+description: >-
+  Join me in programming/coding, cooking, and controlled rotting of food.  I'm a
+  developer who's always trying to learn more; I hope that this blog helps
+  reinforce my own knowledge, and help others in theirs!
+keywords: 'programming, how-to, development, tutorial'
+author: Russ Hammett
+language: en
+timezone: America/New_York
+url: 'http://localhost:4000'
+root: /
+permalink: ':year/:month/:day/:title/'
+permalink_defaults: null
+source_dir: source
+public_dir: public
+tag_dir: tags
+archive_dir: archives
+category_dir: categories
+code_dir: downloads/code
+i18n_dir: ':lang'
+skip_render: null
+new_post_name: ':year:month:day-:title.md'
+default_layout: post
+titlecase: false
+external_link: true
+filename_case: 1
+render_drafts: true
+post_asset_folder: true
+relative_link: false
+future: true
+highlight:
+  enable: true
+  line_number: false
+  auto_detect: false
+  tab_replace: true
+  hljs: true
+index_generator:
+  path: ''
+  per_page: 10
+  order_by: '-date'
+default_category: uncategorized
+category_map: null
+tag_map: null
+date_format: YYYY-MM-DD
+time_format: 'HH:mm:ss'
+per_page: 10
+pagination_dir: page
+theme: icarus
+deploy:
+  type: null
+feed:
+  type: atom
+  path: atom.xml
+  limit: 0
+  hub: null
+  content: true
+  content_limit: 140
+  content_limit_delim: ...
+  order_by: '-date'
+  icon: icon.png
+sitemap:
+  path: sitemap.xml
+  rel: false
+  tags: true
+  categories: true
