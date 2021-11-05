@@ -4,11 +4,11 @@ description: >-
   Join me in programming/coding, cooking, and controlled rotting of food.  I'm a
   developer who's always trying to learn more; I hope that this blog helps
   reinforce my own knowledge, and help others in theirs!
-keywords: 'programming, how-to, development, tutorial'
+keywords: programming, how-to, development, tutorial
 author: Russ Hammett
 language: en
 timezone: America/New_York
-url: 'http://localhost:4000'
+url: http://localhost:4000
 root: /
 permalink: ':year/:month/:day/:title/'
 permalink_defaults: null
@@ -23,7 +23,6 @@ skip_render: null
 new_post_name: ':year:month:day-:title.md'
 default_layout: post
 titlecase: false
-external_link: true
 filename_case: 1
 render_drafts: true
 post_asset_folder: true
@@ -37,14 +36,14 @@ highlight:
   hljs: true
 index_generator:
   path: ''
-  per_page: 10
+  per_page: 20
   order_by: '-date'
 default_category: uncategorized
 category_map: null
 tag_map: null
 date_format: YYYY-MM-DD
-time_format: 'HH:mm:ss'
-per_page: 10
+time_format: HH:mm:ss
+per_page: 20
 pagination_dir: page
 theme: icarus
 deploy:
@@ -64,3 +63,184 @@ sitemap:
   rel: false
   tags: true
   categories: true
+version: 4.0.0
+variant: default
+logo: /images/blog_blackText.png
+head:
+  favicon: /images/favicon.ico
+  manifest:
+    name: Kritner's Blog
+    short_name: null
+    start_url: https://blog.kritner.com
+    theme_color: '#f7f7f7'
+    background_color: '#f7f7f7'
+    display: standalone
+  open_graph:
+    title: null
+    type: blog
+    url: null
+    image: null
+    site_name: null
+    author: null
+    description: null
+    twitter_card: null
+    twitter_id: rlhammett
+    twitter_site: twitter.com/rlhammett
+    google_plus: null
+    fb_admins: null
+    fb_app_id: null
+  structured_data:
+    title: null
+    description: null
+    url: null
+    author: null
+    publisher: null
+    publisher_logo: null
+    image: null
+  meta:
+    - ''
+  rss: atom.xml
+navbar:
+  menu:
+    Home: /
+    Archives: /archives
+    Categories: /categories
+    Tags: /tags
+    About: /about
+  links:
+    Download on GitHub:
+      icon: fab fa-github
+      url: https://github.com/ppoffice/hexo-theme-icarus
+footer:
+  links:
+    Creative Commons:
+      icon: fab fa-creative-commons
+      url: https://creativecommons.org/
+    Attribution 4.0 International:
+      icon: fab fa-creative-commons-by
+      url: https://creativecommons.org/licenses/by/4.0/
+    Download on GitHub:
+      icon: fab fa-github
+      url: https://github.com/ppoffice/hexo-theme-icarus
+article:
+  highlight:
+    theme: atom-one-light
+    clipboard: true
+    fold: unfolded
+  readtime: true
+  licenses:
+    Creative Commons:
+      icon: fab fa-creative-commons
+      url: https://creativecommons.org/
+    Attribution:
+      icon: fab fa-creative-commons-by
+      url: https://creativecommons.org/licenses/by/4.0/
+    Noncommercial:
+      icon: fab fa-creative-commons-nc
+      url: https://creativecommons.org/licenses/by-nc/4.0/
+search:
+  type: insight
+comment:
+  type: disqus
+  shortname: kritnerblog
+donates:
+  - type: buymeacoffee
+    url: https://www.buymeacoffee.com/kritner
+  - type: paypal
+    business: kritner@gmail.com
+    currency_code: USD
+sidebar:
+  left:
+    sticky: false
+  right:
+    sticky: false
+widgets:
+  - position: left
+    type: profile
+    author: Russ Hammett
+    author_title: Software Engineer
+    location: Westminster, MD
+    avatar: null
+    avatar_rounded: true
+    gravatar: kritner@gmail.com
+    follow_link: http://twitter.com/rlhammett
+    social_links:
+      Github:
+        icon: fab fa-github
+        url: http://github.com/kritner
+      Facebook:
+        icon: fab fa-facebook
+        url: http://facebook.com/kritner
+      Twitter:
+        icon: fab fa-twitter
+        url: http://twitter.com/rlhammett
+      RSS:
+        icon: fas fa-rss
+        url: /atom.xml
+  - position: left
+    type: toc
+    index: true
+    collapsed: true
+    depth: 3
+  - position: left
+    type: links
+    links:
+      Hexo: https://hexo.io
+      Bulma: https://bulma.io
+  - position: left
+    type: categories
+  - position: left
+    type: recent_posts
+  - position: left
+    type: archives
+  - position: left
+    type: tags
+  - position: left
+    type: subscribe_email
+    description: null
+    feedburner_id: ''
+  - position: left
+    type: adsense
+    client_id: ''
+    slot_id: ''
+  - position: left
+    type: followit
+    description: null
+    action_url: ''
+    verification_code: ''
+plugins:
+  animejs: true
+  back_to_top: true
+  baidu_analytics:
+    tracking_id: null
+  bing_webmaster:
+    tracking_id: null
+  busuanzi: false
+  cnzz:
+    id: null
+    web_id: null
+  cookie_consent:
+    type: info
+    theme: edgeless
+    static: false
+    position: bottom-left
+    policyLink: https://www.cookiesandyou.com/
+  gallery: true
+  google_analytics:
+    tracking_id: UA-27429397-5
+  hotjar:
+    site_id: null
+  katex: false
+  mathjax: false
+  outdated_browser: false
+  progressbar: true
+  statcounter:
+    project: null
+    security: null
+  twitter_conversion_tracking:
+    pixel_id: null
+providers:
+  cdn: jsdelivr
+  fontcdn: google
+  iconcdn: fontawesome
+start_url: http://localhost:4000

@@ -1,1 +1,1 @@
-hexo generate --config _config.yml,_config.local.yml && hexo server --config _config.yml,_config.local.yml
+hexo generate --config _config.yml,_config.icarus.yml,_config.local.yml && hexo server --config _config.yml,_config.icarus.yml,_config.local.yml
