@@ -243,4 +243,3 @@ providers:
   cdn: jsdelivr
   fontcdn: google
   iconcdn: fontawesome
-start_url: http://localhost:4000
